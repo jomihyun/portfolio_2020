@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>민속박물관</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no,maximum-scale=1.0,minimum-scale=1.0,target-densitydpi=medium-dpi">
+    <link rel="shortcut icon" href="common/images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/5.4.5/css/swiper.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="common/css/common.css">
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/5.4.5/js/swiper.min.js"></script>
+    <script src="common/js/main.js"></script>
+    <script src="common/js/common.js"></script>
+</head>
+<body data-device-type="web">
+    <a href="#cBody" class="goCon">본문바로가기</a>
+    <div id="wrapper">
+        <div id="header">
+            <div class="container">
+                <h1>
+                    <a href="#">
+                        <img src="common/images/logo.png" alt="롯데월드 민속박물관" class="pc">
+                    </a>
+                </h1>
+                <div class="menuWrap">
+                    <div class="topWrap">
+                        <div class="login">
+                            <a href="#">로그인</a>
+                        </div>
+                        <div class="links">
+                            <a href="#">롯데월드 어드벤쳐</a>
+                            <a href="#">아이스링크</a>
+                        </div>
+                    </div>
+                    <div class="gnbArea">
+                        <ul id="gnb" class="gnb">
+                            <li><a href="#" class="oneD">이용안내</a>
+                                <ul class="twoD">
+                                    <li><a href="#">박물관소개</a></li>
+                                    <li><a href="#">관람안내</a></li>
+                                    <li><a href="#">대관안내</a></li>
+                                    <li><a href="#">오시는길</a></li>
+                                    <li><a href="#" class="thrD thrBt">부대시설</a>
+                                        <ul class="thrD">
+                                            <li><a href="#">저자거리</a></li>
+                                            <li><a href="#">전통혼례</a></li>
+                                            <li><a href="#">민속기념품점</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li><a href="#" class="oneD">전시</a>
+                                <ul class="twoD">
+                                    <li><a href="#">상설전시</a></li>
+                                    <li><a href="#">특별전시</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#" class="oneD">교육프로그램</a>
+                                <ul class="twoD">
+                                    <li><a href="#" class="thrD thrBt">역사교육</a>
+                                        <ul class="thrD">
+                                            <li><a href="#">프로그램</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#">전통공예체험</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#" class="oneD">소통·소식</a>
+                                <ul class="twoD">
+                                    <li><a href="#">새소식</a></li>
+                                    <li><a href="#">교육후기</a></li>
+                                    <li><a href="#">포토갤러리</a></li>
+                                    <li><a href="#">FAQ</a></li>
+                                    <li><a href="#">이용문의</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- // menuWrap -->
+            </div>
+            <div class="gnbBg"></div>
+        </div>
+        <!-- 모바일 헤더 -->
+        <div id="headerM">
+            <h1>
+                <a href="#">
+                    <img src="common/images/m_logo.png" alt="롯데월드 민속박물관">
+                </a>
+            </h1>
+            <button type="button" class="openBt"></button>
+            <div class="menuWrapM">
+                <div class="topWrap">
+                    <div class="login">
+                    <a href="#">로그인</a>
+                    <button type="button" class="closeBt"></button>
+                </div>
+                    <div class="links">
+                    <a href="#">롯데월드 어드벤쳐</a>
+                    <a href="#">아이스링크</a>
+                </div>
+                </div>
+                <div class="gnbArea">
+                    <ul id="gnb" class="gnb">
+                        <li>
+                            <a href="#" class="oneD">이용안내</a>
+                            <ul class="twoD">
+                                <li><a href="#">박물관소개</a></li>
+                                <li><a href="#">관람안내</a></li>
+                                <li><a href="#">대관안내</a></li>
+                                <li><a href="#">오시는길</a></li>
+                                <li>
+                                    <a href="#" class="thrBt">부대시설</a>
+                                    <ul class="thrD">
+                                        <li><a href="#">저자거리</a></li>
+                                        <li><a href="#">전통혼례</a></li>
+                                        <li><a href="#">민속기념품점</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li><a href="#" class="oneD">전시</a>
+                            <ul class="twoD">
+                                <li><a href="#">상설전시</a></li>
+                                <li><a href="#">특별전시</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#" class="oneD">교육프로그램</a>
+                            <ul class="twoD">
+                                <li><a href="#" class="thrD thrBt">역사교육</a>
+                                    <ul class="thrD">
+                                        <li><a href="#">프로그램</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">전통공예체험</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#" class="oneD">소통·소식</a>
+                            <ul class="twoD">
+                                <li><a href="#">새소식</a></li>
+                                <li><a href="#">교육후기</a></li>
+                                <li><a href="#">포토갤러리</a></li>
+                                <li><a href="#">FAQ</a></li>
+                                <li><a href="#">이용문의</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+        <!-- // menuWrapMobile -->    
+        <div id="cBody">
+            <!-- Swiper -->
+            <div class="mainVisualArea swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <a href="#" class="pc"><img src="common/images/slide_1.jpg" alt=""></a><!--
+                        --><a href="#" class="mobile"><img src="common/images/slide_1_m.jpg" alt=""></a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#"  class="pc"><img src="common/images/slide_2.jpg" alt=""></a><!--
+                        --><a href="#" class="mobile"><img src="common/images/slide_2_m.jpg" alt=""></a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#" class="pc"><img src="common/images/slide_3.jpg" alt=""></a><!--
+                        --><a href="#" class="mobile"><img src="common/images/slide_3_m.jpg" alt=""></a>
+                    </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+<!--                <div class="control">컨트롤</div>-->
+                <!--<button class="swiper-pause">정지</button>
+                <button class="swiper-play">시작</button>-->
+            </div>
+            <div class="mainTodayArea">
+                <div class="container">
+                    <a href="#">
+                        <p class="mTit">운영시간</p>
+                        <div class="time">
+                            <p class="tit">평일</p>
+                            <p class="txt">11:00 - 19:00</p>
+                        </div>
+                        <div class="time">
+                            <p class="tit">주말/공휴일</p>
+                            <p class="txt">11:00 - 19:00</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="mainCon mainCon1">
+                <div class="inner">
+                    <h2 class="mainTit">시대별 문화를<br>즐길 수 있는 전시</h2>
+                    <p class="mainTxt">현재 진행 중인 전시를 알아보세요.</p>
+                    <ul class="mainCon1List">
+                        <li>
+                            <a href="#">
+                                <figure class="img">
+                                    <img src="common/images/mainCon1_img1.jpg" alt="">
+                                </figure>
+                                <div class="txtArea">
+                                    <span class="tit">상설전시</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <figure class="img">
+                                    <img src="common/images/mainCon1_img2.jpg" alt="">
+                                </figure>
+                                <div class="txtArea">
+                                    <span class="tit">특별전시</span>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="mainCon1Bg">
+                    <div class="t1"></div>
+                    <div class="t2"></div>
+                </div>
+            </div>
+            <div class="mainCon mainCon2">
+                <div class="inner">
+                    <h2 class="mainTit">민속박물관의 즐겁고<br>다양한 프로그램</h2>
+                    <p class="mainTxt">다양한 프로그램을 확인해보세요.</p>
+                    <ul class="mainCon2List">
+                        <li>
+                            <a href="#">
+                                <figure class="img">
+                                    <img src="common/images/mainCon2_img1.jpg" alt="" class="pc">
+                                    <img src="common/images/mainCon2_img1_m.jpg" alt="" class="mobile">
+                                </figure>
+                                <div class="txtArea">
+                                    <span class="tit">전통문화/역사교육</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <figure class="img">
+                                    <img src="common/images/mainCon2_img2.jpg" alt="" class="pc">
+                                    <img src="common/images/mainCon2_img2_m.jpg" alt="" class="mobile">
+                                </figure>
+                                <div class="txtArea">
+                                    <span class="tit">전통공예체험</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <figure class="img">
+                                    <img src="common/images/mainCon2_img3.jpg" alt="" class="pc">
+                                    <img src="common/images/mainCon2_img3_m.jpg" alt="" class="mobile">
+                                </figure>
+                                <div class="txtArea">
+                                    <span class="tit">문화행사</span>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="mainCon mainCon3">
+                <div class="inner">
+                    <h2 class="mainTit">민속박물관 소식을 한눈에!</h2>
+                    <p class="mainTxt">오늘의 민속박물관 소식을 만나보세요.</p>
+                    <div class="mainNews">
+                        <div class="left">
+                            <p class="tit">민속박물관 소식</p>
+                            <div class="newsCon">
+                                <a href="#">
+                                    <p class="tit">[할인안내]LG U+멤버십 제휴 할인</p>
+                                    <p class="date">2020.11.02</p>
+                                </a>
+                            </div>
+                            <ul class="newsList">
+                                <li>
+                                    <a href="#">
+                                        <span>[방역안내] 서울시 박물관•미술관 코로나 19 방역 실시</span>
+                                    </a>
+                                    <span class="date">2020.10.22</span>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <span>[체험행사] 9~11월 이달의 주인공을 찾아라!</span>
+                                    </a>
+                                    <span class="date">2020.09.03</span>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <span>[교육안내]하반기 학기 중 교육프로그램 안내</span>
+                                    </a>
+                                    <span class="date">2020.08.26</span>
+                                </li>
+                            </ul>
+                            <a href="#" class="newsMoreBt">더보기</a>
+                        </div>
+                        <div class="right">
+                            <div class="utilDiv">
+                                <a href="#">이용문의</a>
+                                <a href="#">오시는 길</a>
+                            </div>
+                            <div class="bannerDiv">
+                                <p class="tit">
+                                    우리 고유의 옛멋과<br>품격을 선도합니다
+                                </p>
+                                <a href="#">전통혼례 바로가기</a>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="footer">
+            <div class="container">
+                <div class="top">
+                    <div class="links">
+                        <a href="#">롯데월드 소개</a>
+                        <a href="#">기업 제휴 및 입점 문의</a>
+                        <a href="#">이용약관</a>
+                        <a href="#" class="cRed">개인정보처리방침</a>
+                        <a href="#">사이트맵</a>
+                    </div>
+                </div>
+                <div class="bottom">
+                    <div class="addrCopy">
+                        <address>
+                            <p>
+                                <span>서울특별시 송파구 올림픽로 240 호텔롯데 롯데월드</span>
+                                <span>대표자 : 최홍훈</span>
+                            </p>
+                            <p>
+                                <span>사업자등록번호 : 219-85-00014</span>
+                                <span>통신판매업신고번호 : 송파 제5513호</span>
+                                <span>전화 : 1661-2000</span>
+                            </p>
+                        </address>
+                        <p class="copy">COPYRIGHT &copy; 2018 LOTTEWORLD. ALL RIGHTS RESERVED.</p>
+                    </div>
+                    <div class="familySite">
+                        <select id="selectFamilySite" title="계열사 관련 사이트 새창열기">
+                            <option value="">계열사 관련 사이트</option>
+                            <option value="http://www.lotte.co.kr/">롯데그룹</option>
+                            <option value="http://www.lpoint.com">L.POINT</option>
+                            <option value="http://job.lotte.co.kr">롯데채용센터</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="topBtn">
+                <a href="#">위로</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
