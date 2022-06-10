@@ -1,0 +1,32 @@
+fieldset 과 legend 짝꿍이다
+section 태그를 쓰면 제목태그를 꼭 써야한다 .( h1,h2,h3,,,)
+vertical-align: middle 사용시 정렬을 하고자하는 객체에 
+모두 써야한다.
+
+
+
+
+자바스크립트 페이지 이동
+location.href='이동할 페이지 주소'
+주소/index.html
+주소/mem/login.html 등등
+
+예시 )  member-step1페이지
+<button type="reset" class="btn btn-cancel">취소</button>
+<button type="button" class="btn btn-next" onclick="location.href = 'member-setp2.html'">다음</button>
+ 
+
+
+
+
+button type = 'submit'일경우
+form 태그의 action 안의 파일로 연결한다.
+
+예시 ) member-step2페이지
+<form action=" join.php(개발자)" method="" id="" name="">
+    <button type="reset" class="btn btn-cancel">취소</button>
+    <button type="submit" class="btn btn-next">다음</button>
+</form>
+
+
+
