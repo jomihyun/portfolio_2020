@@ -1,0 +1,20 @@
+@charset "utf-8";
+
+/* 구글폰트 */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;900&family=Noto+Sans+KR:wght@100;400&display=swap');
+/* 폰트설정 */
+body{ font-family: 'Montserrat','Noto Sans KR', sans-serif; font-size: 16px; line-height: 1.5; color: #333;}
+
+/* 초기화 */
+body,h1,h2,h3,h4,h5,h6,p,ul,li,figure,figcaption{ margin: 0; padding: 0;}
+h1,h2,h3,h4,h5,h6{ font-size: 1em; line-height: 1em;}
+ul{ list-style: none;}
+em,address{ font-style: normal;}
+img{ vertical-align: middle;}
+a{ text-decoration: none; color: #333;}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}

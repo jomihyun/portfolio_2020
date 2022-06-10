@@ -1,0 +1,37 @@
+@charset "utf-8";
+
+
+/* 프로젝트 페이지 */
+.box{ max-width: 1280px; margin: 0 auto; position: relative;}
+.box img{ width: 100%;}
+.box{ padding-top: 100px; margin-bottom: 50px;}
+.box:first-child{ max-width: none; padding: 0;}
+
+/* 퀵메뉴 */
+body.didScroll .menu-wrap{ display: block; opacity: 1;}
+.menu-wrap{ position: fixed; right: 200px; bottom: 50%; z-index: 99999; margin-bottom: -176px; text-align: center; opacity: 0; transition: opacity 1s;}
+.menu-wrap .dot-menu-wrap{}
+.menu-wrap .dot-menu-wrap li{}
+.menu-wrap .dot-menu-wrap li a{ display: block; padding-left: 15px; margin-top: 12px;}
+.menu-wrap .dot-menu-wrap li.on a{ color: #ffc400;}
+.menu-wrap .dot-menu-wrap li.on a:after{ background-color: #ffc400;}
+
+.menu-wrap .dot-menu-wrap li a:after{ content: ""; display: inline-block; width: 5px; height: 20px; background-color: #000000; position: absolute; left: 0;}
+/*.menu-wrap .dot-menu-wrap li a:hover:after{ background-color: #000000;}*/
+
+.menu-wrap .btn-wrap{ display: inline-block; width: 40px; height: 40px; border-radius: 50%; background-color: #f7f7f7; border: 1px solid #bcbbbb; position: relative; margin-top: 20px;}
+.menu-wrap .btn-wrap a:after{ content: "\f015"; display: block; font-family: 'Font Awesome 5 Free'; font-weight: 900; color: #000000; font-size: 22px; position: absolute; left: 50%; top: 50%; transform: translate(-50%,-50%);}
+
+
+
+
+
+
+/* 미디어쿼리  */
+@media screen and (max-width:767px){
+
+/*    닷메뉴 */
+    body.didScroll .menu-wrap{ display: none;}
+
+}
+
