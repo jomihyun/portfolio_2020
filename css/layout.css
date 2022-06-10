@@ -80,7 +80,7 @@
 
 /* 브랜드 리스트 */
 #sec-02 .brand{ overflow: hidden;}
-#sec-02 .brand ul li{ float: left; width: 20%; position: relative; margin-bottom: 40px; box-sizing: border-box;}
+#sec-02 .brand ul li{ float: left; width: 33.333%; position: relative; margin-bottom: 40px; box-sizing: border-box;}
 #sec-02 .brand ul li+li{ padding-left: 20px;}
 #sec-02 .brand ul li:nth-child(6){ padding-left: 0;}
 
