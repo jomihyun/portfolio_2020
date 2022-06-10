@@ -1,4 +1,9 @@
 $(function(){
+
+    $('.pop-up .btn').click(function(){
+        $('.pop-up').fadeOut();
+        $('.back-bg').fadeOut();
+    });
     
     $('#main-slide').bxSlider({
         auto: true,

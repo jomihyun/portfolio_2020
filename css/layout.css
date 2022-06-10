@@ -1,5 +1,12 @@
 @charset "utf-8";
 
+/* 팝업창 */
+.pop-up{ width: 450px; height: 150px; background-color: #fff; border-radius: 10px; box-shadow: 5px 5px 15px rgb(0 0 0 / 80%); text-align: center; position: absolute; left: 50%; top: 50%; transform: translate(-50%,-50%); z-index: 250;}
+.pop-up p{ font-size: 18px; padding-top: 40px;}
+.pop-up p a{ font-weight: bold;}
+.pop-up .btn{ background: #333; border: 0; color: #fff; font-size: 12px; margin-top: 10px; padding: 5px 10px; cursor: pointer; border-radius: 10px;}
+.back-bg{ width: 100vw; height: 100vh; background-color: rgba(0, 0, 0, 0.6); position: fixed; left: 0; top: 0; z-index: 230; overflow: hidden;}
+
 /* 헤더 */
 .header{ width:100%; padding: 0 15px; position: fixed; left: 0; top: 0; background-color: #fff; box-shadow: 0 0 30px rgba(0,0,0,0.2); z-index: 200;}
 .header .aligner{ max-width: 1200px; height: 85px; margin: 0 auto; position: relative;}
